@@ -1,0 +1,24 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  font-family: Avenir;
+  font-size: 40px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.header__container > span {
+  font-size: 16px;
+}
+
+.header__button--logout {
+  font-size: 16px;
+  border-radius: 20px;
+  background: none;
+  height: 40px;
+  width: 100px;
+  border-width: 1px;
+  border-color: rgb(187, 187, 187);
+  box-shadow: none;
+  display: inline-block;
+}
