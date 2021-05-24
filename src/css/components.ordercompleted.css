@@ -1,0 +1,36 @@
+.order__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65vh;
+}
+
+.order__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.order__container--right {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  text-align: start;
+  margin-left: 5%;
+}
+
+.order__text {
+  color: #8c8c8c;
+  text-align: start;
+  font-size: 0.9rem;
+}
+.order__button {
+  background: #b95de4;
+  border-radius: 48px;
+  width: 187px;
+  height: 54px;
+  margin-top: 10%;
+  border: none;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+}

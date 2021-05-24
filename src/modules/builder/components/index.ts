@@ -6,3 +6,4 @@ export * from "./PizzaSizeItem";
 export * from "./SelectSizeItem";
 export * from "./DiscountCode";
 export * from "./OrderModal";
+export * from "./OrderCompleted";
