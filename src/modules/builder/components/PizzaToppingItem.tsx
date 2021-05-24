@@ -9,8 +9,10 @@ export const PizzaToppingItem: React.FC<PizzaToppingProps> = (
 ): JSX.Element => {
   return (
     <div className="pizza__topping--outer">
-      <div className="pizza__topping--inner">{props.icon}</div>
-      {props.name}
+      <div className="pizza__topping--inner">
+        <img src={props.icon} alt="" />
+      </div>
+      <text style={{ marginBottom: "20px" }}>{props.name}</text>
     </div>
   );
 };

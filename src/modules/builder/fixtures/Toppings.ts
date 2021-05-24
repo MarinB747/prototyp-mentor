@@ -1,83 +1,60 @@
 import { Topping } from "../";
+import ananas from "../../../assets/ananas.png";
+import gljiva from "../../../assets/gljiva.png";
+import jaje from "../../../assets/jaje.png";
+import kukuruz from "../../../assets/kukuruz.png";
+import meso from "../../../assets/meso.png";
+import paprika from "../../../assets/paprika.png";
+import slanina from "../../../assets/slanina.png";
+
 export const toppings: Topping[] = [
   {
-    type: "cheese",
-    name: "Cheese",
+    type: "chilli",
+    name: "Chilli",
     price: 1.5,
-    isVegeterian: true,
-    isGlutenFree: true,
-    isHot: false,
-    icon: "🧀",
+    icon: paprika,
     selected: false
   },
   {
     type: "corn",
     name: "Corn",
     price: 1.5,
-    isVegeterian: true,
-    isGlutenFree: true,
-    isHot: false,
-    icon: "🌽",
+    icon: kukuruz,
     selected: false
   },
   {
-    type: "ham",
-    name: "Ham",
+    type: "egg",
+    name: "Egg",
     price: 1.5,
-    isVegeterian: false,
-    isGlutenFree: true,
-    isHot: false,
-    icon: "🍖",
+    icon: jaje,
     selected: false
   },
   {
-    type: "bacon",
-    name: "Bacon",
+    type: "pineapple",
+    name: "Pineapple",
     price: 1.5,
-    isVegeterian: false,
-    isGlutenFree: true,
-    isHot: false,
-    icon: "🥓",
+    icon: ananas,
+    selected: false
+  },
+  {
+    type: "meat",
+    name: "Meat",
+    price: 1.5,
+    icon: meso,
     selected: false
   },
   {
     type: "shrooms",
     name: "Shrooms",
     price: 1.5,
-    isVegeterian: true,
-    isGlutenFree: true,
-    isHot: false,
-    icon: "🍄",
+    icon: gljiva,
     selected: false
   },
   {
-    type: "onions",
-    name: "Onions",
+    type: "bacon",
+    name: "Bacon",
     price: 1.5,
-    isVegeterian: true,
-    isGlutenFree: true,
-    isHot: false,
-    icon: "🧅",
-    selected: false
-  },
-  {
-    type: "paprika",
-    name: "Paprika",
-    price: 1.5,
-    isVegeterian: true,
-    isGlutenFree: true,
-    isHot: false,
-    icon: "🌶️",
-    selected: false
-  },
-  {
-    type: "tomato",
-    name: "Tomato",
-    price: 1.5,
-    isVegeterian: true,
-    isGlutenFree: true,
-    isHot: false,
-    icon: "🍅",
+    icon: slanina,
     selected: false
   }
 ];

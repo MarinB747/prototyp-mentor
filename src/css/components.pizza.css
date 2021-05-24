@@ -1,10 +1,7 @@
-.pizza__topping--wrapper {
-  display: flex;
-  justify-content: center;
-}
 .titles {
   font-size: 30px;
   font-weight: bold;
+  font-family: Avenir;
 }
 .topping__button {
   background: transparent;
@@ -24,4 +21,111 @@
 }
 .topping__button:focus {
   outline: 0;
+}
+.size__discount--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.size__discount--selector {
+  display: flex;
+  flex-direction: row;
+  background: #ececf3;
+  width: 438px;
+  height: 88px;
+  border-radius: 72px;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.discount__field {
+  background: #ececf3;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.discount__button {
+  display: flex;
+  width: 135px;
+  height: 68px;
+  border-radius: 36px;
+  background: #ececf3;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 36px;
+  font-size: 1.1rem;
+  font-family: Inter;
+  color: #383838;
+}
+.footer__positioner {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  width: 774px;
+  height: 148px;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 28px 28px 0px 0px;
+  position: fixed;
+  bottom: 0px;
+}
+
+.footer__img {
+  position: relative;
+  top: -25%;
+}
+
+.footer__wrapper--inner {
+  display: flex;
+  flex-direction: column;
+  color: #b9b9b9;
+}
+
+.footer__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  background: #b95de4;
+  border-radius: 48px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: Avenir;
+  font-size: 1rem;
+}
+.footer__total {
+  color: #b95de4;
+  font-weight: 800;
+  font-size: 1.8rem;
+}
+.footer__middle {
+  width: 221px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 46px;
+}
+.footer__qty {
+  width: 60px;
+  text-align: center;
+  height: 36px;
+  background: #ececf3;
+  border-radius: 20px;
+  border: none;
+  box-sizing: border-box;
 }

@@ -1,9 +1,8 @@
 export type ToppingType =
-  | "tomato"
-  | "ham"
-  | "bacon"
-  | "onions"
+  | "chilli"
+  | "corn"
+  | "egg"
+  | "pineapple"
+  | "meat"
   | "shrooms"
-  | "cheese"
-  | "paprika"
-  | "corn";
+  | "bacon";

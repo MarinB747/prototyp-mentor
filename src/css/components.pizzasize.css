@@ -1,0 +1,9 @@
+.pizza__size {
+  display: flex;
+  width: 135px;
+  height: 68px;
+  border-radius: 36px;
+  background: #ececf3;
+  justify-content: center;
+  align-items: center;
+}
