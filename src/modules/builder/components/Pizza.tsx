@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom";
 import { Header } from "modules/builder";
 import "../../../css/components.appcontainer.css";
 import "../../../css/components.pizza.css";
@@ -7,13 +8,18 @@ import {
   toppings,
   SelectToppingItem,
   PizzaSizeItem,
-  SelectSizeItem
+  SelectSizeItem,
+  DiscountCode
 } from "modules/builder";
 import pizzaImg from "../../../assets/pizzaimg.png";
 import { sizes } from "../fixtures/Sizes";
 
 export const Pizza: React.FC = () => {
   let [selected, setSelected] = useState(false);
+  const history = useHistory();
+  const handleBuy = () => {
+    history.push("/modal");
+  };
   const handleSelect = () => {
     setSelected(!selected);
   };
@@ -48,18 +54,7 @@ export const Pizza: React.FC = () => {
         </div>
       </div>
       <p className="titles">Get the discount</p>
-      <div className="size__discount--wrapper">
-        <div
-          className="size__discount--selector"
-          style={{ marginBottom: "200px" }}
-        >
-          <input
-            placeholder="Enter discount code"
-            className="discount__field"
-          />
-          <button className="discount__button">Apply</button>
-        </div>
-      </div>
+      <DiscountCode />
       <div className="footer__positioner">
         <div className="footer__wrapper">
           <img className="footer__img" src={pizzaImg} alt="/" />
@@ -72,7 +67,7 @@ export const Pizza: React.FC = () => {
               style={{
                 width: "1px",
                 height: "52px",
-                border: "1px dashed #DBDBDB"
+                borderLeft: "1px dashed #DBDBDB"
               }}
             ></div>
             <div className="footer__wrapper--inner">
@@ -80,7 +75,9 @@ export const Pizza: React.FC = () => {
               <text>ORDER TOTAL</text>
             </div>
           </div>
-          <button className="footer__button">Buy Pizza! Pizza!</button>
+          <button className="footer__button" onClick={handleBuy}>
+            Buy Pizza! Pizza!
+          </button>
         </div>
       </div>
     </div>
