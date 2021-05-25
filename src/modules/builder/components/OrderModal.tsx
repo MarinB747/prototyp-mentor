@@ -11,10 +11,10 @@ export const OrderModal: React.FC = () => {
   return (
     <div className="app__container">
       <Header />
-      <div className="modal__wrapper">
+      <div className="modal__flexer">
         <div className="modal__container">
           <h1>Almost done!</h1>
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <div className="modal__wrapper">
             <div className="modal__details">
               <h3 className="modal__h3">Order details</h3>
               <div className="modal__toppings">

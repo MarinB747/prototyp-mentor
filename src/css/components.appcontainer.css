@@ -6,3 +6,9 @@
   align-items: center;
   justify-content: center;
 }
+@media only screen and (max-width: 820px) {
+  .app__container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}

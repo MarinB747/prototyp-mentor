@@ -129,3 +129,48 @@
   border: none;
   box-sizing: border-box;
 }
+@media only screen and (max-width: 820px) {
+  .size__discount--selector {
+    width: 310px;
+  }
+  .discount__field {
+    font-size: 1rem;
+  }
+
+  .discount__button {
+    width: 80px;
+  }
+  .footer__wrapper {
+    width: 310px;
+  }
+  .footer__img {
+    width: 130px;
+    position: relative;
+    top: -20%;
+  }
+
+  .footer__button {
+    align-items: center;
+    padding: 16px 24px;
+    font-size: 0.7rem;
+  }
+  .footer__total {
+    color: #b95de4;
+    font-weight: 800;
+    font-size: 1rem;
+    margin: 0px 5px;
+  }
+  .footer__middle {
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 0px;
+    margin-right: 28px;
+  }
+  .footer__qty {
+    width: 40px;
+    margin: 0px 5px;
+  }
+}

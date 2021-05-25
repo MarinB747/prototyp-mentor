@@ -8,3 +8,8 @@
   align-items: center;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
 }
+@media only screen and (max-width: 820px) {
+  .select__size {
+    width: 80px;
+  }
+}

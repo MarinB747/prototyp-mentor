@@ -34,3 +34,12 @@
   font-size: 1rem;
   font-weight: 500;
 }
+@media only screen and (max-width: 820px) {
+  .order__container--right {
+    width: 150px;
+    font-size: 0.7rem;
+  }
+  .order__button {
+    width: 130px;
+  }
+}
